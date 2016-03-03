@@ -1,0 +1,24 @@
+{
+  "name": "tbjs",
+  "version": "0.0.1",
+  "description": "The core for the TwitchBotJS on GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewSH/node-tbjs.git"
+  },
+  "author": "MatthewH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewSH/node-tbjs/issues"
+  },
+  "homepage": "https://github.com/MatthewSH/node-tbjs",
+  "dependencies": {
+    "fs": "0.0.2",
+    "path": "^0.12.7",
+    "util": "^0.10.3"
+  }
+}
