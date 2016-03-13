@@ -19,6 +19,8 @@
   "dependencies": {
     "fs": "0.0.2",
     "path": "^0.12.7",
+    "rimraf": "^2.5.2",
+    "underscore.string": "^3.3.4",
     "util": "^0.10.3"
   }
 }
