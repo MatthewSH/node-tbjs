@@ -4,10 +4,7 @@ var path = require('path');
 var ltrim = require('underscore.string/ltrim');
 
 exports.isCommand = function (input) {
-  if (input.toLowerCase().substr(0, prefix.length) === prefix)
-    return true;
-  else
-    return false;
+  return input.toLowerCase().substr(0, prefix.length) === prefix;
 };
 
 exports.isNumber = function (n) {
@@ -37,10 +34,7 @@ exports.isURL = function (str) {
     '$', 'i'
   );
 
-  if (!pattern.test(str))
-    return false;
-  else
-    return true;
+  return pattern.test(str));
 };
 
 exports.getCommand = function (input) {
